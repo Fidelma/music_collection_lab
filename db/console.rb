@@ -8,11 +8,15 @@ Artist.delete_all()
 artist1 = Artist.new({
   'name' => "Mac DeMarco"
   })
+artist2 = Artist.new({
+  'name' => "Mac DeMarco"
+  })
+
+artist1.save()
 
 artist1.name = "Marc DeMaco"
 artist1.update()
 
-artist1.save()
 
 album1 = Album.new({
   'title' => 'Here comes the cowboy',
@@ -30,6 +34,9 @@ album2 = Album.new({
 
   album1.genre = 'electro'
   album1.update()
+
+  artist2.delete()
+
 
 
 
