@@ -37,6 +37,8 @@ album2 = Album.new({
 
   artist2.delete()
 
+  album2.delete()
+
 
 
 
