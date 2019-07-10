@@ -28,6 +28,9 @@ album2 = Album.new({
   album1.save()
   album2.save()
 
+  album1.genre = 'electro'
+  album1.update()
+
 
 
 
